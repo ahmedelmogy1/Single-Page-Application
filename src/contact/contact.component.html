@@ -1,0 +1,34 @@
+
+
+<div class="container vh-100  section d-flex justify-content-center align-items-center  flex-column gap-4 gap-md-5  ">
+       <div class="">
+        <h2 class="fw-bold text-dark fs-1  text-center ">CONTACT COMPONENT</h2>
+        <div class=" d-flex justify-content-center align-items-center ">
+         <span class="d-inline-block line "></span>
+         <i class="fa-solid fa-star"></i>
+         <span class="d-inline-block line"></span>
+        </div>
+       </div>
+        
+<div class="input1 w-100">
+        <label for="input1" class="text-success text-start fw-bold position-relative z-n1 ps-3 input1" [class]="input[0] !=''?'top-0':'top-50'"> user Name :</label>
+        <input [(ngModel)]="input[0]" type="text" class=" form-control border-0 border-bottom" placeholder="user name" name="input1" (input)="chechV(0)" >
+</div>
+<div class="input2 w-100">
+        <label for="input2" class="text-success text-start fw-bold position-relative  z-n1 ps-3" [class]="input[1] !=''?'top-0':'top-50'"> user Age :</label>
+        <input  [(ngModel)]="input[1]" type="number" class=" form-control  border-0 border-bottom" placeholder="user Age" min="16" name="input2">
+</div>
+<div class="input3 w-100">
+        <label for="input3" class="text-success text-start fw-bold position-relative  z-n1 ps-3" [class]="input[2] !=''?'top-0':'top-50'"> user Email :</label>
+        <input  [(ngModel)]="input[2]" type="email" class=" form-control  border-0 border-bottom" placeholder="user Email" name="input3">
+</div>
+<div class="input4 w-100">
+        <label for="input4"  class="text-success text-start fw-bold position-relative z-n1 ps-3" [class]="input[3] !=''?'top-0':'top-50'">user Password :</label>
+        <input   [(ngModel)]="input[3]" type="password" class=" form-control  border-0 border-bottom" placeholder="user password" name="input4">
+
+</div>
+        <button class="btn btn-success me-auto fs-6 fw-medium"> send message</button>
+    
+</div>
+
+

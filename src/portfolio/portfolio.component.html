@@ -1,0 +1,64 @@
+<div class="position-absolute top-0 bottom-0 start-0 end-0 layer z-3 " [class]="close? 'd-none': 'd-inline-block'" (click)=" checker(true)">
+    <img [src]="photoChoosed" alt="" class=" position-absolute top-50  start-50 translate-middle">
+</div>
+<div class="d-flex p-5 align-items-center flex-column home gap-2 min-vh-100 mt-5 ">
+
+    <h2 class="fw-bold text-dark fs-1 mt-5 ">ABOUT COMPONENT</h2>
+   <div class=" d-flex justify-content-center align-items-center ">
+    <span class="d-inline-block line "></span>
+    <i class="fa-solid fa-star"></i>
+    <span class="d-inline-block line"></span>
+   </div>
+   <div class="cards d-flex justify-content-center align-items-center  container p-3 row">
+<div class="outline col-12 col-sm-6 col-md-4 p-3 overflow-hidden">
+    
+    <div class="card rounded rounded-4  overflow-hidden position-relative">
+        <div class="overLay d-flex justify-content-center align-items-center overflow-hidden position-absolute" (click)="choosePhoto(photo[0])" (click)="checker(false)">
+            <i class="fa-solid fa-plus display-1"></i>
+        </div>
+        <img [src]="photo[0]" alt="">
+    </div>
+</div>
+<div class="outline col-12 col-sm-6 col-md-4 p-3">
+    <div class="card rounded rounded-4  overflow-hidden">
+          <div class="overLay d-flex justify-content-center align-items-center overflow-hidden position-absolute"  (click)="choosePhoto(photo[1])" (click)="checker(false)">
+            <i class="fa-solid fa-plus display-1"></i>
+        </div>
+        <img [src]="photo[1]" alt="">
+    </div>
+</div>
+<div class="outline col-12 col-sm-6 col-md-4 p-3">
+    <div class="card rounded rounded-4  overflow-hidden">
+          <div class="overLay d-flex justify-content-center align-items-center overflow-hidden position-absolute" (click)="choosePhoto(photo[2])" (click)="checker(false)">
+            <i class="fa-solid fa-plus display-1"></i>
+        </div>
+        <img [src]="photo[2]" alt="">
+    </div>
+</div>
+<div class="outline col-12 col-sm-6 col-md-4 p-3 overflow-hidden">
+    <div class="card rounded rounded-4  overflow-hidden">
+          <div class="overLay d-flex justify-content-center align-items-center overflow-hidden position-absolute" (click)="choosePhoto(photo[0])" (click)="checker(false)">
+            <i class="fa-solid fa-plus display-1"></i>
+        </div>
+        <img [src]="photo[0]" alt="">
+    </div>
+</div>
+<div class="outline col-12 col-sm-6 col-md-4 p-3">
+    <div class="card rounded rounded-4  overflow-hidden">
+          <div class="overLay d-flex justify-content-center align-items-center overflow-hidden position-absolute" (click)="choosePhoto(photo[1])" (click)="checker(false)">
+            <i class="fa-solid fa-plus display-1"></i>
+        </div>
+        <img [src]="photo[1]" alt="">
+    </div>
+</div>
+<div class="outline col-12 col-sm-6 col-md-4 p-3">
+    <div class="card rounded rounded-4  overflow-hidden">
+          <div class="overLay d-flex justify-content-center align-items-center overflow-hidden position-absolute" (click)="choosePhoto(photo[2])" (click)="checker(false)">
+            <i class="fa-solid fa-plus display-1"></i>
+        </div>
+        <img [src]="photo[2]" alt="">
+    </div>
+</div>
+   </div>
+  
+</div>

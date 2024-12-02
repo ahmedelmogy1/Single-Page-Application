@@ -1,0 +1,14 @@
+.home{
+    background-color: #1ABC9C;
+    height: 90vh;
+}
+
+.line{
+    height: 4px ;
+    width: 125px ;
+    background-color: white;
+    margin-inline:15px;
+}
+i{
+    color: white;
+}

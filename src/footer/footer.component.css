@@ -1,0 +1,41 @@
+.footer1{
+    background-color: #2C3E50;
+    height: 30vh;
+}
+span{
+    display: inline-block;
+}
+.icon{
+  
+    border: white 1px solid ;
+    border-radius: 50%;
+    padding: 12px;
+    margin-inline: 0.5rem;
+i{
+    font-size: 1.7rem;
+}
+}
+.footerDetails{
+    width: 400px;
+}
+@media screen and (max-width:768px) {
+    .icon{
+  
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        margin-inline: 0.2rem;
+    i{
+        font-size: 1rem;
+    }
+    }
+
+    h3{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    h6{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+}

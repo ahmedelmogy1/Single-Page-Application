@@ -1,0 +1,36 @@
+
+
+.line{
+    height: 4px ;
+    width: 125px ;
+    background-color: #212529;
+    margin-inline:15px;
+}
+i{
+    color: #212529;
+}
+.section{
+    height: 100vh;
+}
+input:focus{
+    outline: 0;
+    box-shadow: none;
+    border: none;
+}
+input{
+    height: 4rem;
+    font-size: 1.5rem;
+    transition: top 400ms;
+}
+input::placeholder{
+    font-size: 1.5rem;
+    color: gray;
+}
+label{
+    transition: top 400ms;
+}
+@media screen and (max-width:768px) {
+    input{
+        height: 2rem;
+    }
+}

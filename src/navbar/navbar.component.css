@@ -1,0 +1,21 @@
+nav{
+    background-color: #2C3E50;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 10px;
+} 
+/* .navbar{
+    --bs-navbar-toggler-icon-bg:url(""
+} */
+.navbar-toggler:focus{
+    box-shadow: white  0 0 0 2px ;
+    text-decoration: none;
+    outline: none;
+}

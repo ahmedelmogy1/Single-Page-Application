@@ -1,0 +1,54 @@
+
+
+.line{
+    height: 4px ;
+    width: 125px ;
+    background-color: #212529;
+    margin-inline:15px;
+}
+i{
+    color: #212529;
+}
+/* .card::after{
+    content: "";
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: background-color 400ms ;
+}
+.card:hover::after{
+   content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+    background-color: #17caa68f;
+    
+
+} */
+
+.overLay{
+background-color: #17caa68f;
+opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 400ms ;
+}
+.card:hover .overLay{
+   
+   content: "";
+   opacity: 1;
+    position: absolute;
+     background-color: #17caa68f;
+     
+ 
+ }
+ .overLay i{
+    font-size: 10rem
+ }
+.layer{
+    background-color: rgba(0, 153, 204, 0.418);
+}
+.layer img{
+    width: 30%;
+}
